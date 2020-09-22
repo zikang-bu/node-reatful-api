@@ -1,0 +1,19 @@
+{
+  "name": "mail",
+  "version": "1.0.0",
+  "description": "1.restful api\r   uri资源定位\r   链接资源状态\r   使用http已有特性\r     http动词 get post put delete\r     http状态码 200 400 500\r     http头部 Authorization认证报头 Cache-Control缓存报头 Content-Type消息体类型报头\r     Hypermedia\r   统一资源规范\r 2.工程实战\r   GET /xhr/v1/template?page=1&size=10\r   GET /xhr/v1/template/1\r   POST /xhr/v1/template\r   PUT /xhr/v1/template/1\r   DELETE /xhr/v1/template/1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6",
+    "nodemon": "^2.0.4"
+  }
+}
